@@ -1,0 +1,84 @@
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#ADFF2F, #008000);
+	background-repeat: no-repeat;
+	background-color: #008000;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+	border: 2px #008000 solid;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+.row{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+.row a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    min-height: 40px;
+    min-width: 3000px;
+}
+
+.row a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.fotur{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	min-height: 100px;
+	color: white;
+	font-size: 1.5em;
+}
+
+.verd{
+	background-color: #70d31f;
+	border-radius: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	max-width: 20em;
+	max-height: 18em; 
+	margin-left: 25em;
+	margin-top: 15px;
+
+
+}
+.texti{
+	margin-left: 10px;
+}
+.texti2{
+	margin-left: 15px;
+}
+
+.timi{
+	background-color: #70d31f;
+	border-radius: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	max-width: 20em;
+	min-height: 8em; 
+	margin-left: 25em;
+	margin-top: 15px;
+}
+
+.dagsetning{
+	margin-left: 60px;
+}
